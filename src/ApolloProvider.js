@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-    uri: 'https://infinite-woodland-94473.herokuapp.com/'
+    uri: 'https://socialmedia-5yby.onrender.com'
 });
 
 const authLink = setContext(() => {
